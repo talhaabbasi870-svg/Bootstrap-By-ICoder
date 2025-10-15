@@ -94,3 +94,72 @@
                 <a
                   class="dropdown-item"
                   href="https://www.gettingsmart.com/write-for-us/"
+                  target="_blank"
+                  >Write for Us</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- ✅ Search Form -->
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+
+        <!-- ✅ Buttons -->
+        <div class="mx-2">
+          <button
+            class="btn btn-danger"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            Login
+          </button>
+          <button
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#signupModal"
+          >
+            Signup
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ✅ Navbar End -->
+
+  <!-- ✅ Footer -->
+  <footer class="container my-4">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2024–2025 iCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+  <!-- ✅ Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- ✅ Active Nav Link Script -->
+  <script>
+    const currentPage = window.location.pathname.split("/").pop();
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    navLinks.forEach(link => {
+      if (link.getAttribute("href") === currentPage) {
+        link.classList.add("active");
+      } else {
+        link.classList.remove("active");
+      }
+    });
+  </script>
+</body>
+</html>
