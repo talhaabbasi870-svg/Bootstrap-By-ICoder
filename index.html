@@ -5,27 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | iCoder Tech Blogs</title>
 
-  <!-- ✅ Bootstrap CSS -->
+  <!-- Bootstrap CSS -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-    crossorigin="anonymous"
   />
 
   <style>
-    /* ✅ Highlight active nav link */
     .nav-link.active {
       color: #fff !important;
       background-color: #0d6efd !important;
       border-radius: 5px;
     }
-
-    /* Optional styling tweaks */
     main {
       padding: 60px 0;
     }
-
     footer {
       border-top: 1px solid #ddd;
       padding-top: 20px;
@@ -33,9 +27,8 @@
     }
   </style>
 </head>
-
 <body>
-  <!-- ✅ Navbar -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold" href="index.html">iCoder</a>
@@ -59,21 +52,21 @@
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Topics
             </a>
             <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="https://www.techtarget.com/searchdatacenter/definition/IT" target="_blank">Technology</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Web_development" target="_blank">Web Development</a>
-              </li>
+              <li><a class="dropdown-item" href="https://www.techtarget.com/searchdatacenter/definition/IT" target="_blank">Technology</a></li>
+              <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Web_development" target="_blank">Web Development</a></li>
               <li><hr class="dropdown-divider" /></li>
               <li><a class="dropdown-item" href="#">Support</a></li>
-              <li>
-                <a class="dropdown-item" href="https://www.gettingsmart.com/write-for-us/" target="_blank">Write for Us</a>
-              </li>
+              <li><a class="dropdown-item" href="https://www.gettingsmart.com/write-for-us/" target="_blank">Write for Us</a></li>
             </ul>
           </li>
         </ul>
@@ -91,26 +84,24 @@
     </div>
   </nav>
 
-  <!-- ✅ Hero Section -->
+  <!-- ✅ Main Hero Section -->
   <main class="container text-center my-5">
     <h1 class="display-5 fw-bold">Welcome to iCoder Tech Blogs</h1>
     <p class="lead text-muted">
-      Discover coding tutorials, tech insights, and web development guides to enhance your skills and stay updated.
+      Explore coding tutorials, tech insights, and web development tips crafted for learners and developers.
     </p>
     <a href="about.html" class="btn btn-primary btn-lg mt-3">Learn More</a>
   </main>
 
-  <!-- ✅ Example Blog Section -->
+  <!-- ✅ Blog Cards Section -->
   <section class="container my-5">
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card h-100 shadow-sm">
           <img src="https://source.unsplash.com/400x250/?coding,technology" class="card-img-top" alt="Tech Blog" />
           <div class="card-body">
-            <h5 class="card-title">Latest in AI</h5>
-            <p class="card-text">
-              Explore how Artificial Intelligence is transforming industries and making everyday life smarter.
-            </p>
+            <h5 class="card-title">AI Innovations</h5>
+            <p class="card-text">Discover how Artificial Intelligence is shaping the future of tech and automation.</p>
             <a href="#" class="btn btn-outline-primary">Read More</a>
           </div>
         </div>
@@ -118,58 +109,5 @@
 
       <div class="col-md-4">
         <div class="card h-100 shadow-sm">
-          <img src="https://source.unsplash.com/400x250/?web,developer" class="card-img-top" alt="Web Development" />
+          <img src="https://source.unsplash.com/400x250/?web,developer" class="card-img-top" alt="Web Dev" />
           <div class="card-body">
-            <h5 class="card-title">Web Development Trends</h5>
-            <p class="card-text">
-              Stay up-to-date with the latest frameworks and design trends dominating the web in 2025.
-            </p>
-            <a href="#" class="btn btn-outline-primary">Read More</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <img src="https://source.unsplash.com/400x250/?cybersecurity,data" class="card-img-top" alt="Cybersecurity" />
-          <div class="card-body">
-            <h5 class="card-title">Cybersecurity Essentials</h5>
-            <p class="card-text">
-              Learn how to protect your systems and data from the latest cyber threats and vulnerabilities.
-            </p>
-            <a href="#" class="btn btn-outline-primary">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ✅ Footer -->
-  <footer class="container my-5">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>© 2024–2025 iCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-  </footer>
-
-  <!-- ✅ Bootstrap JS -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"
-  ></script>
-
-  <!-- ✅ Active NavLink Fix -->
-  <script>
-    const currentPage = window.location.pathname.split("/").pop() || "index.html";
-    const navLinks = document.querySelectorAll(".nav-link");
-
-    navLinks.forEach(link => {
-      const linkHref = link.getAttribute("href");
-      if (linkHref === currentPage) {
-        link.classList.add("active");
-      } else {
-        link.classList.remove("active");
-      }
-    });
-  </script>
-</body>
-</html>
